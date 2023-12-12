@@ -1,8 +1,11 @@
 ---
 layout: post
-title: 'Project Four'
+title: '4'
 ---
 
-In diam odio, facilisis eu elementum in, sodales ut dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean fermentum ante vitae sagittis efficitur. Praesent interdum sagittis porttitor. Duis non hendrerit metus. Nullam bibendum nunc cursus elit cursus ornare. Nulla eget sodales erat. Quisque laoreet nibh eu eleifend vehicula.
+프로젝트 설명 글 ~~~~~
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-4/bike.jpg" %}
+
+{% include image.html url="http://www.gratisography.com" image="bike.jpg" %}
+
+
