@@ -4,7 +4,7 @@
 menu:
 - {name: 'About',    url: 'about'}
 - {name: 'Projects', url: ''}
-- {name: 'Blog',     link: 'https://studyanddebug.tistory.com/'}
+- {name: 'Blog',     url: 'https://studyanddebug.tistory.com/'}
 - {name: 'Contact',  url: 'contact'}
 
 #-------------------------------
