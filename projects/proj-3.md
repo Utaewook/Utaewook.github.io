@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '환편기 이상 탐지'
+title: 'P-GPT 사용자 로그 분석'
 ---
 
 프로젝트 설명 글 ~~~~~
