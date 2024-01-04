@@ -9,7 +9,7 @@ title: '유아용품 온라인 쇼핑몰 데이터 분석'
 - 키워드 및 기술 스택: python, pandas, matplotlib
 - 프로젝트 소개
 
-    {% include image.html url="{{ site.github.url }}/assets/img/projects/proj-1/ppt_file.pdf" image="thumbnail.png" %}
+    {% include image.html url='{{ site.github.url }}/assets/img/projects/proj-1/ppt_file.pdf' image="thumbnail.png" %}
 
     유아용품 온라인 쇼핑몰(맘큐) 상품 및 고객 데이터 분석을 통한 문제점 및 해결방안 도출 프로젝트.
     상품, 고객, 고객 구매의 세 가지 데이터를 통해 기업의 개선 기회 및 인사이트 도출. 분석을 통해 해결방안을 제시해 보는 프로젝트를 진행해 보았음.
