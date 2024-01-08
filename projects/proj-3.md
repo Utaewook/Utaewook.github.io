@@ -3,8 +3,6 @@ layout: post
 title: 'P-GPT 사용자 로그 분석'
 ---
 
-프로젝트 설명 글 ~~~~~
-
 
 {% include image.html url='https://github.com/Utaewook/PIAI_ResearchIntern/tree/main/p-gpt' image="projects/proj-3/thumbnail.png" %}
 
