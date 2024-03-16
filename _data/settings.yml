@@ -12,7 +12,7 @@ menu:
 
 projects:
 - {name: '유아용품 데이터 분석',   url: 'proj-1'}
-- {name: '비전 기반 환편기 이상 탐지',   url: 'proj-2'}
+- {name: '환편기 예지 보전',   url: 'proj-2'}
 - {name: 'P-GPT 로그 분석', url: 'proj-3'}
 # - {name: 'Project Four',  url: 'proj-4'}
 
