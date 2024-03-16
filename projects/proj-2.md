@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '비전 기반 환편기 이상탐지'
+title: '환편기 예지 보전'
 ---
 
 {% include image.html url="https://github.com/Utaewook/PIAI_ResearchIntern/tree/main/ckm/modeling/MSFlow" image="projects/proj-2/thumbnail.png" %}
@@ -16,7 +16,8 @@ title: '비전 기반 환편기 이상탐지'
 환편기는 Knit 원단을 생산하는 설비로써, Knit 원단은 여러 산업계에 널리 사용되는 원단입니다. 해당 프로젝트는 원가 상승 대비 인건비 절약 및 생산 Loss Rate 최소화, 불량 원단 Zero화 달성에 따른 원가 절감 효과를 기대하는 기술 개발 프로젝트입니다.
 
 {% include image.html image='projects/proj-2/CircularKnittingMachine.jpg' %}<br>
-다른 개발 되어야 할 목표 기능들이 많았지만, 해당 팀에서 배정 받은 업무는 환편기로 직조된 원단의 결점 감지 모델 개발 업무였습니다. 비지도 학습 기반 이상 탐지 알고리즘을 활용해서, 원단의 결점을 이상치로 간주하고 이상치를 탐지해내는 딥러닝 모델을 개발하였습니다. 데이터의 전처리부터, 이상 탐지 모델의 모델링, 경량화 과정까지 모두 진행해보게 되었습니다.
+
+해당 팀에서 배정 받은 업무는 환편기로 직조된 원단의 결점 감지 모델 개발 업무였습니다. 비지도 학습 기반 이상 탐지 알고리즘을 활용해서, 원단의 결점을 이상치로 간주하고 이상치를 탐지해내는 딥러닝 모델을 개발하였습니다. 데이터의 전처리부터, 이상 탐지 모델의 모델링, 경량화 과정까지 모두 진행해보게 되었습니다.
 
         
 
@@ -41,7 +42,13 @@ title: '비전 기반 환편기 이상탐지'
 
   이상 탐지 모델을 개발하기 위해 다양한 모델들을 비교해보았는데, 주로 살펴 보았던 모델은 Diffusion 기반인 **AnoDDPM**모델, 사전 훈련된 CNN에 패치 설명자와 메모리 뱅크를 활용한 **CFA**모델, 세 종류의 모델 구조를 통해 이상 탐지를 수행하는 **MSFlow**모델 입니다.
 
-  성능과 모델 구축 용이성을 고려했을 때, 가장 적합한 모델로 MSFlow 모델을 선정하였으며, 해당 모델을 통해 데이터셋을 학습시키고, 경량화 또한 진행하게 되었습니다. 개발을 진행한 모델의 구조와 성능, 경량화에 대해 더 자세한 내용은 [ppt](https://github.com/Utaewook/Utaewook.github.io/blob/gh-pages/assets/img/projects/proj-2/ppt_file.pdf)를 통해 알 수 있습니다.<br><br>
+  성능과 모델 구축 용이성을 고려했을 때, 가장 적합한 모델로 MSFlow 모델을 선정하였으며, 해당 모델을 통해 데이터셋을 학습시키고, 경량화 또한 진행하게 되었습니다. 
+
+  개발한 MSFlow 모델의 성능
+  - AUROC: 99.8
+  - fps: 180 <br>
+  
+  개발을 진행한 모델의 구조와 성능, 경량화에 대해 더 자세한 내용은 [ppt](https://github.com/Utaewook/Utaewook.github.io/blob/gh-pages/assets/img/projects/proj-2/ppt_file.pdf)를 통해 알 수 있습니다.<br><br>
 
 
 
